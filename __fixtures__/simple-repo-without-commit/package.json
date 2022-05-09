@@ -1,0 +1,11 @@
+{
+  "name": "@af/simple-repo",
+  "version": "0.0.1",
+  "private": true,
+  "bolt": {
+    "version": "^0.24.3",
+    "workspaces": [
+      "packages/*"
+    ]
+  }
+}

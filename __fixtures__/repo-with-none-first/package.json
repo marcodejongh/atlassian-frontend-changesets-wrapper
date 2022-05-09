@@ -1,0 +1,14 @@
+{
+  "name": "@af/repo-with-changesets",
+  "version": "0.0.1",
+  "private": true,
+  "bolt": {
+    "version": "^0.24.3",
+    "workspaces": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.18.1"
+  }
+}
