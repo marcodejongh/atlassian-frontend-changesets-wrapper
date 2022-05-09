@@ -22,7 +22,10 @@ Empty is the old way of marking a changeset as non-releasable, it should be depr
 
 
 Command for adding a none releasable changeset:
+```
 "changeset:none": "yarn changeset --none",
+```
+
 
 Command on CI for checking everything has a changeset:
 ```
